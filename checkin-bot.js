@@ -30,14 +30,14 @@ const checkIn = async () => {
     i++
     console.log(`Looking for the checkIn button, at ${dayjs().format('hh:mm:ss A')} for the ${i}th time`);
     try {
-      if (await page.$('.checkin')) {
-        await page.click('.checkin')
+      if (await page.$('.student-check-in-form')) {
+        await page.click('.student-check-in-form')
         let now = dayjs().format('hh:mm:ss A')
         console.log(`checked in at ${now}`);
         await page.screenshot({ path: `./screenshot/checkInAt${dayjs().format('hh:mm:ss')}.png`})
       }
     } catch(e) {}
-  }, 120000);
+  }, 12000);
 
 }
 
