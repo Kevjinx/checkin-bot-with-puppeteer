@@ -1,0 +1,26 @@
+{
+  "name": "better-than-steam",
+  "version": "1.0.0",
+  "description": "Curations of video games with an easy-to-use interface",
+  "main": "index.js",
+  "dependencies": {
+    "dayjs": "^1.10.5",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-Vasquez/better-than-steam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mark-Vasquez/better-than-steam/issues"
+  },
+  "homepage": "https://github.com/Mark-Vasquez/better-than-steam#readme"
+}
