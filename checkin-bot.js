@@ -37,7 +37,7 @@ const checkIn = async () => {
         await page.screenshot({ path: `./screenshot/checkInAt${dayjs().format('hh:mm:ss')}.png`})
       }
     } catch(e) {}
-  }, 12000);
+  }, 120000);
 
 }
 
